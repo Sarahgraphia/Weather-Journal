@@ -1,0 +1,104 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <title>WEATHER JOURNAL</title>
+</head>
+
+<body>
+
+
+
+  
+
+
+    <div class="d-flex justify-content-between"></div>
+
+     <nav
+        class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand nav-font ps-5" href="#">
+             <img src="photos/logo2x.png" class=" logo pe-2 " alt="">
+            Weather
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+              <li class="nav-item">
+                <a class="nav-link active home" href="#">HOME</a>
+                <div class="line"></div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#services">Live Camera</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"
+                  href="#portfolio">Photos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!---------------------END OF NAVBAAAR------------------>
+
+    <div class="container text-center">
+      <form>
+
+        <input type="text" class="form-control  m-auto main-color my-5 p-3  " placeholder="Find your location..."
+          id="searchWeather">
+        <input type="button" value="Find" class="searchBtn" id="submit">
+        <div id="searchAlert">
+
+
+        </div>
+      </form>
+
+      <div class="row text-center" id="threeDaysDeg">
+
+
+      </div>
+
+
+    </div>
+  
+  <!------------------ End of weather content -------------->
+
+  <div id="footer" class=" py-2 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 pb-2 pt-4">
+          <div class="copy-right text-center">
+            <div class="social ps-4 py-3">
+              <a href="" class="fb"><i class="fa-brands fa-facebook-f fb-padding "></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i> </a>
+            </div>
+            <h6>Copyright 2014 Company name. Designed by Themezy. All rights reserved.</h6>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+   <script src="JS/bootstrap.bundle.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>

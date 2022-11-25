@@ -1,0 +1,200 @@
+body {
+
+
+    background-image: url(../photos/WallpaperDog-724452.png);
+    background-size: cover;
+    background-position: 100%;
+
+}
+
+.overlay {
+
+
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 100vh;
+
+}
+
+.main-color {
+
+    background-color: #1E202B;
+
+}
+
+.logo {
+
+
+    width: 90px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+nav{
+
+padding: 30px 0 !important;
+
+}
+.nav-item a {
+    transition: all 0.5s;
+    border: transparent solid 2px;
+    border-radius: 30px;
+    margin: 0 10px;
+    padding: 5px 40px !important;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.5s all;
+    font-size: 15px;
+}
+
+.nav-item a:hover {
+    border: #019cd8 solid 2px;
+    border-radius: 30px;
+    color: #019cd8;
+}
+
+
+.nav-item .home {
+    border: #019cd8 solid 2px;
+
+}
+
+#searchWeather {
+
+    background-color: #2d303f8a !important;
+    border-radius: 30px;
+    color: aliceblue !important;
+
+
+}
+
+.fontBig {
+
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+form {
+
+
+    position: relative;
+
+}
+
+.searchBtn {
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 30px;
+    background-color: #bbe3f3;
+    color: black;
+    transition: all 0.5s;
+
+}
+
+.searchBtn:hover {
+    background-color: #68b6d5;
+    color: rgb(8, 8, 8);
+}
+
+#threeDaysDeg {
+
+    border-radius: 5px;
+
+
+}
+
+.radius-10 {
+
+
+    border-radius: 10px;
+
+}
+
+.border-top {
+
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.degpart:hover {
+
+    background-color: rgba(240, 248, 255, 0.683);
+    color: #1e1f41ac;
+
+}
+
+.degpart {
+
+    transition: all 0.3s;
+
+}
+
+.conditionTxt {
+
+
+    text-shadow: 0px 0.5px 0.5px rgb(208, 221, 254);
+
+}
+
+.navbar-brand {
+
+    text-shadow: 2px 2px 2px 10px rgba(186, 183, 183, 0.4);
+
+}
+
+.textShadow {
+
+    text-shadow: 0 2px 0 rgba(255, 255, 255, 0.4);
+
+}
+
+.degpart {
+
+
+    background-color: #444576ac;
+    color: rgb(243, 235, 225);
+
+}
+
+.degHeader {
+
+    background-color: #121342e2;
+    color: rgb(243, 235, 225);
+}
+
+#footer {
+
+    background-color: #250d3ab6;
+
+    color: aliceblue;
+}
+
+.social i {
+
+    color: white;
+    padding: 10px 11px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #1d2126da;
+    border-radius: 50%;
+    transition: all 0.4s;
+
+}
+
+.social i:hover {
+
+    background-color: #c3c4ece2;
+    color: #121342e2;
+}
+
+.fb-padding {
+
+    padding: 10px 14px !important;
+
+}
