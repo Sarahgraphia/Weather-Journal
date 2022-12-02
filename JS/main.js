@@ -18,13 +18,14 @@ let weekDays = [
 ];
 let date = new Date();
 let today = weekDays[date.getDay()];
-var tomorrow = weekDays[0];
-var afterTomorrow = weekDays[1];
-// console.log((date.getDay() +2 ) % 7);
-if (date.getDay() >= 0 && date.getDay() < 6) {
-  tomorrow = weekDays[date.getDay() + 1];
-  afterTomorrow = weekDays[date.getDay() + 2];
-}
+var tomorrow = weekDays[(date.getDay() +1 ) % 7];
+var afterTomorrow = weekDays[(date.getDay() +2 ) % 7];
+console.log((date.getDay() +2 ) % 6);
+// console.log(date.getDay());
+// if (date.getDay() >= 0 && date.getDay() < 6) {
+//   tomorrow = weekDays[date.getDay() + 1];
+//   afterTomorrow = weekDays[date.getDay() + 2];
+// }
 
 let month = date.toLocaleString("default", { month: "long" });
 
